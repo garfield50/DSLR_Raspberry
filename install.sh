@@ -15,6 +15,8 @@ clear
 
 # define configuration files
 
+echo "country=FR" >> /etc/wpa_supplicant/wpa_supplicant.conf
+
 echo "denyinterfaces wlan0" >> /etc/dhcpcd.conf
 
 mv /etc/network/interfaces /etc/network/interfaces.bak
